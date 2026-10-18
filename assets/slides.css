@@ -73,6 +73,8 @@ section.part p { color: #d0deee; font-size: 22px; }
 .cols + .blue-box, .cols + .amber-box, .blue-box + .cols, .amber-box + .cols, .cols + .cols,
 .blue-box + .amber-box, .amber-box + .blue-box { margin-top: 14px !important; }
 .cols > .card, .cols > .card-navy { align-self: stretch; margin-top: 0 !important; }
+section:not(.lead) .cols:not(:has(> .center)) { align-items: flex-start; }
+section:not(.lead) .cols:not(:has(> .center)) > div > :first-child { margin-top: 0; }
 .card, .card-navy, .blue-box, .amber-box { text-align: left; }
 .card > :first-child, .card-navy > :first-child, .blue-box > :first-child, .amber-box > :first-child { margin-top: 0; }
 .card > :last-child, .card-navy > :last-child, .blue-box > :last-child, .amber-box > :last-child { margin-bottom: 0; }
