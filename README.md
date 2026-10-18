@@ -1,4 +1,4 @@
-# Mathematics for AI and Machine Learning
+# Mathematics for AI & ML
 
 The source of **Mathematics for AI and Machine Learning** (Third Edition) by Fuheng Wu: a mathematical reference for artificial intelligence and machine learning, from vector spaces and matrix decompositions through optimization and information theory to the stochastic calculus behind diffusion models.
 

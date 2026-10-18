@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:is(div.marpit > svg > foreignObject > section, section) {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: #ffffff;
+  color: #24292e;
+  font-size: 24px;
+  --marpit-root-font-size: 24px;
+  padding: 32px 56px 40px;
+  line-height: 1.45;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(h1, marp-h1) {
+  font-family: 'Inter', sans-serif;
+  font-size: 44px;
+  color: #162d50;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(h2, marp-h2) {
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  color: #162d50;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(h3, marp-h3) {
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  color: #2c4a75;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) header {
+  top: 6px;
+  left: 30px;
+  right: 30px;
+  font-size: 15px;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) footer {
+  bottom: 8px;
+  font-size: 15px;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) header a {
+  position: absolute;
+  right: -30px;
+  top: -6px;
+  color: #ffffff;
+  background: #b45309;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  padding: 5px 16px 6px;
+  border-radius: 0 0 0 14px;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) header a strong {
+  color: #ffffff;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) blockquote {
+  border-left: 5px solid #2b548a;
+  color: #2c3e50;
+  font-size: 22px;
+  line-height: 1.45;
+  padding: 10px 18px;
+  background: rgba(43, 84, 138, 0.05);
+  border-radius: 0 6px 6px 0;
+  margin: 12px 0;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) table {
+  font-size: 19px;
+  margin: 10px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(th, td) {
+  padding: 6px 12px;
+  border-bottom: 1px solid #d5cec0;
+  background: transparent;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) th {
+  font-family: 'Inter', sans-serif;
+  color: #162d50;
+  font-weight: 600;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  background: #eae5d8;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  line-height: 1.35;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: #1e293b;
+  color: #f8fafc;
+  margin: 8px 0 !important;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  text-align: left !important;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) code span.line::before {
+  content: attr(data-line);
+  display: inline-block;
+  width: 1.8em;
+  margin-right: 0.75em;
+  padding-right: 0.45em;
+  border-right: 1px solid rgba(148, 163, 184, 0.28);
+  text-align: right;
+  color: #64748b;
+  font-size: 0.85em;
+  user-select: none;
+}
+
+/* Syntax colours for the dark code blocks (GitHub Dark palette). */
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) :is(.hljs-keyword, .hljs-selector-tag, .hljs-type) { color: #ff7b72; }
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) :is(.hljs-built_in, .hljs-title, .hljs-title.function_) { color: #d2a8ff; }
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) :is(.hljs-number, .hljs-literal, .hljs-attr, .hljs-variable) { color: #79c0ff; }
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) :is(.hljs-string, .hljs-regexp) { color: #a5d6ff; }
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) :is(.hljs-comment, .hljs-meta) { color: #9ca3af; font-style: italic; }
+:is(div.marpit > svg > foreignObject > section, section) :is(pre, marp-pre) :is(.hljs-params, .hljs-operator, .hljs-punctuation, .hljs-subst) { color: #f8fafc; }
+
+:is(div.marpit > svg > foreignObject > section, section) .small { font-size: 18px; color: #666; }
+:is(div.marpit > svg > foreignObject > section, section) .center { text-align: center; }
+:is(div.marpit > svg > foreignObject > section, section) .big { font-size: 32px; color: #162d50; text-align: center; line-height: 1.5; }
+:is(div.marpit > svg > foreignObject > section, section) .cols { display: flex; gap: 24px; align-items: center; }
+:is(div.marpit > svg > foreignObject > section, section) .cols > div { flex: 1; min-width: 0; }
+:is(div.marpit > svg > foreignObject > section, section) .cols > div.wide { flex: 1.35; }
+:is(div.marpit > svg > foreignObject > section, section) .cols > div.wider { flex: 1.5; }
+:is(div.marpit > svg > foreignObject > section, section) .cols > div.narrow { flex: 0.75; }
+:is(div.marpit > svg > foreignObject > section, section) .fig { width: 100%; display: block; margin: 0 auto; border: none; border-radius: 0; box-shadow: none; background: transparent; }
+:is(div.marpit > svg > foreignObject > section, section) .card { background: white; padding: 14px 18px; border-radius: 8px; border: 1px solid #e0dad0; box-shadow: 0 2px 6px rgba(0,0,0,0.03); }
+:is(div.marpit > svg > foreignObject > section, section) .card-navy { background: #162d50; color: #f8f6f0; padding: 14px 18px; border-radius: 8px; }
+:is(div.marpit > svg > foreignObject > section, section) .card-navy :is(h3, marp-h3, h4, marp-h4, strong) { color: #9bb7db; }
+:is(div.marpit > svg > foreignObject > section, section) .highlight { color: #b45309; font-weight: 600; }
+:is(div.marpit > svg > foreignObject > section, section) .blue-box { background: rgba(43, 84, 138, 0.07); border-left: 4px solid #2b548a; padding: 8px 14px; border-radius: 0 6px 6px 0; margin: 8px 0; font-size: 21px; }
+:is(div.marpit > svg > foreignObject > section, section) .amber-box { background: rgba(180, 83, 9, 0.07); border-left: 4px solid #b45309; padding: 8px 14px; border-radius: 0 6px 6px 0; margin: 8px 0; font-size: 21px; }
+
+:is(div.marpit > svg > foreignObject > section, section):is(.lead, [data-class~="lead"]) {
+  justify-content: center;
+  text-align: center;
+}
+:is(div.marpit > svg > foreignObject > section, section):is(.lead, [data-class~="lead"]) blockquote {
+  border: none;
+  padding: 0;
+  font-size: 28px;
+  background: transparent;
+}
+
+:is(div.marpit > svg > foreignObject > section, section):is(.part, [data-class~="part"]) {
+  justify-content: center;
+  background: #162d50;
+  color: #f8f6f0;
+}
+:is(div.marpit > svg > foreignObject > section, section):is(.part, [data-class~="part"]) :is(h2, marp-h2) {
+  font-size: 24px;
+  color: #9bb7db;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+:is(div.marpit > svg > foreignObject > section, section):is(.part, [data-class~="part"]) :is(h1, marp-h1) {
+  font-size: 46px;
+  color: #ffffff;
+}
+:is(div.marpit > svg > foreignObject > section, section):is(.part, [data-class~="part"]) p {
+  color: #d0deee;
+  font-size: 22px;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) .ai-stretch { align-items: stretch; }
+:is(div.marpit > svg > foreignObject > section, section) :is(
+  .card + .card, .card + .card-navy, .card-navy + .card, .card-navy + .card-navy,
+  .card + .blue-box, .card + .amber-box, .blue-box + .card, .amber-box + .card,
+  .cols + .blue-box, .cols + .amber-box, .blue-box + .cols, .amber-box + .cols, .cols + .cols,
+  .blue-box + .amber-box, .amber-box + .blue-box
+) {
+  margin-top: 14px !important;
+}
+:is(div.marpit > svg > foreignObject > section, section) .cols > :is(.card, .card-navy) {
+  align-self: stretch;
+  margin-top: 0 !important;
+}
+:is(div.marpit > svg > foreignObject > section, section) :is(.card, .card-navy, .blue-box, .amber-box) {
+  text-align: left;
+}
+:is(div.marpit > svg > foreignObject > section, section) :is(.card, .card-navy, .blue-box, .amber-box) > :first-child {
+  margin-top: 0;
+}
+:is(div.marpit > svg > foreignObject > section, section) :is(.card, .card-navy, .blue-box, .amber-box) > :last-child {
+  margin-bottom: 0;
+}
+
+:is(div.marpit > svg > foreignObject > section, section) .mb-0 { margin-bottom: 0; }
+:is(div.marpit > svg > foreignObject > section, section) .mb-4 { margin-bottom: 4px; }
+:is(div.marpit > svg > foreignObject > section, section) .mb-6 { margin-bottom: 6px; }
+:is(div.marpit > svg > foreignObject > section, section) .mb-8 { margin-bottom: 8px; }
+:is(div.marpit > svg > foreignObject > section, section) .mb-10 { margin-bottom: 10px; }
+:is(div.marpit > svg > foreignObject > section, section) .mb-12 { margin-bottom: 12px; }
+:is(div.marpit > svg > foreignObject > section, section) .mt-4 { margin-top: 4px; }
+:is(div.marpit > svg > foreignObject > section, section) .mt-6 { margin-top: 6px; }
+:is(div.marpit > svg > foreignObject > section, section) .mt-8 { margin-top: 8px; }
+:is(div.marpit > svg > foreignObject > section, section) .mt-10 { margin-top: 10px; }
+:is(div.marpit > svg > foreignObject > section, section) .mt-12 { margin-top: 12px; }
+:is(div.marpit > svg > foreignObject > section, section) .mt-14 { margin-top: 14px; }
+:is(div.marpit > svg > foreignObject > section, section) .m-0 { margin: 0; }
+:is(div.marpit > svg > foreignObject > section, section) .p-10 { padding: 10px; }
+:is(div.marpit > svg > foreignObject > section, section) .lh-14 { line-height: 1.4; }
+:is(div.marpit > svg > foreignObject > section, section) .lh-15 { line-height: 1.5; }
+
+:is(div.marpit > svg > foreignObject > section, section) .fs-14 { font-size: 14px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-15 { font-size: 15px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-16 { font-size: 16px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-17 { font-size: 17px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-18 { font-size: 18px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-19 { font-size: 19px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-20 { font-size: 20px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-21 { font-size: 21px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-22 { font-size: 22px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-23 { font-size: 23px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-24 { font-size: 24px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-26 { font-size: 26px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-28 { font-size: 28px; }
+:is(div.marpit > svg > foreignObject > section, section) .fs-30 { font-size: 30px; }
+
+:is(div.marpit > svg > foreignObject > section, section) :is(ul, ol) { margin: 6px 0; padding-left: 22px; }
+:is(div.marpit > svg > foreignObject > section, section) li { font-size: inherit; line-height: 1.35; margin-bottom: 3px; }
+
+/* Dense slides: <!-- _class: compact --> trims spacing, <!-- _class: tight --> also shrinks text. */
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"], .tight, [data-class~="tight"]) :is(h2, marp-h2) { margin-bottom: 8px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"], .tight, [data-class~="tight"]) :is(h3, marp-h3) { margin: 4px 0 6px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"], .tight, [data-class~="tight"]) .card { padding: 10px 14px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"], .tight, [data-class~="tight"]) .katex-display { margin: 0.35em 0; }
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"], .tight, [data-class~="tight"]) :is(.blue-box, .amber-box) { margin: 6px 0; padding: 6px 12px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"]),
+:is(div.marpit > svg > foreignObject > section, section):is(.compact, [data-class~="compact"]) :is(.fs-21, .fs-22, .fs-24, .fs-26) { font-size: 20px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]),
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]) :is(.fs-19, .fs-20, .fs-21, .fs-22, .fs-24, .fs-26) { font-size: 18px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]) :is(h2, marp-h2) { font-size: 30px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]) :is(h3, marp-h3) { font-size: 22px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]) .card { padding: 8px 12px; }
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]) .katex-display { margin: 0.25em 0; }
+:is(div.marpit > svg > foreignObject > section, section):is(.tight, [data-class~="tight"]) :is(.blue-box, .amber-box) { font-size: 18px; }
