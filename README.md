@@ -5,6 +5,8 @@ The source of **Mathematics for AI and Machine Learning** (Third Edition) by Fuh
 - Website: [math4ai.org](https://math4ai.org)
 - Print edition: [Amazon](https://www.amazon.com/dp/B0GSXVFMLD)
 
+Each chapter's notebook is `chapterN-*/advanced/labs.ipynb` (the exercises and labs from the member videos). It used to be `chapterN-*/code/proj.ipynb`; that file now only links to the new one.
+
 ## Contents
 
 | # | Chapter |
