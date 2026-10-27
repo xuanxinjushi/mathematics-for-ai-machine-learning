@@ -4,6 +4,7 @@ The source of **Mathematics for AI and Machine Learning** (Third Edition) by Fuh
 
 - Website: [math4ai.org](https://math4ai.org)
 - Print edition: [Amazon](https://www.amazon.com/dp/B0GSXVFMLD)
+- Figures: shown in the book and on [math4ai.org](https://math4ai.org); this repository holds only code and notebooks.
 
 Each chapter's notebook is `chapterN-*/advanced/labs.ipynb` (the exercises and labs from the member videos).
 
