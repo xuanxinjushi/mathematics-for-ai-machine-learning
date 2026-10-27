@@ -6,6 +6,8 @@ The source of **Mathematics for AI and Machine Learning** (Third Edition) by Fuh
 - Print edition: [Amazon](https://www.amazon.com/dp/B0GSXVFMLD)
 - Figures: shown in the book and on [math4ai.org](https://math4ai.org); this repository holds only code and notebooks.
 
+Runnable PyTorch code for every interactive demo on math4ai.org is in [`colab/`](colab/README.md): click a badge to open it in Google Colab.
+
 Each chapter's notebook is `chapterN-*/advanced/labs.ipynb` (the exercises and labs from the member videos).
 
 ## Contents
