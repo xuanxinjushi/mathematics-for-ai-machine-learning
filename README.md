@@ -7,7 +7,10 @@
 The source of **Mathematics for AI and Machine Learning** (Third Edition) by Fuheng Wu: a mathematical reference for artificial intelligence and machine learning, from vector spaces and matrix decompositions through optimization and information theory to the stochastic calculus behind diffusion models.
 
 - Website: [math4ai.org](https://math4ai.org)
-- Print edition: [Amazon](https://www.amazon.com/dp/B0GSXVFMLD)
+- Get the book:
+  - Amazon: [📖 Ebook](https://www.amazon.com/dp/B0GR5HZT91/) · [📗 Paperback](https://www.amazon.com/dp/B0GSXVFMLD/) · [📕 Hardcover](https://www.amazon.com/dp/B0HCT4KZDX/)
+  - Lulu: [📕 Hardcover](https://www.lulu.com/shop/fuheng-wu-and-yu-guo/mathematics-for-ai-and-machine-learning/hardcover/product-gjzv5p9.html)
+  - IngramSpark: [📕 Hardcover](https://shop.ingramspark.com/b/084?params=MpaTSFhEGByyjisfA8RvWnUvkJLpXUTnjSHxbhoGp6Q)
 - Figures: shown in the book and on [math4ai.org](https://math4ai.org); this repository holds only code and notebooks.
 
 Runnable PyTorch code for every interactive demo on math4ai.org is in [`colab/`](colab/README.md): click a badge to open it in Google Colab.
